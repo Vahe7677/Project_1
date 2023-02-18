@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var searchBtn: UIButton!
-    
     @IBOutlet weak var bottomView: UIView!
     @IBOutlet weak var listBtn: UIButton!
     @IBOutlet weak var favoriteBtn: UIButton!
@@ -25,6 +24,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
 //        let st = UIStoryboard(name: "Main", bundle: .main)
 //        let nextVC = st.instantiateViewController(withIdentifier: "ViewController") as? ViewController
